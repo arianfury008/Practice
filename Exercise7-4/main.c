@@ -4,7 +4,6 @@
 //Arian khatiban
 // Exercise7-4
 int main() {
-    // asln az tamrin nmishe fahmid chi az ma mikhad :\
 
     int arr[] = {5, 2, 8, 7, 1};
     int temp = 0;
@@ -26,6 +25,10 @@ int main() {
             }
         }
     }
-
+    printf("\nSorted Array : \n");
     // nmone sort kardn array
+    for(int i = 0; i < length;i++){
+        printf("%d ",arr[i]);
+    }
+    return -1;
 }
