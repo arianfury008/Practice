@@ -11,7 +11,7 @@ int main() {
     int textFile =0;
     int AudioFile =0;
 
-    printf("Your phone storage : \n");
+    printf("Your phone storage (MG) : \n");
     scanf("%d",&storage);
 
     printf("\nHow many videoFile do you have ? \n");
@@ -29,6 +29,8 @@ int main() {
     TStorage = T * textFile;
 
     storage = storage - (VStorage + AStorage + TStorage);
-    printf("storage your phone is %dG",storage);
+    printf("megdar storage masraf shode : %d MG",(VStorage + AStorage + TStorage));
+    printf("\n now storage : %d MG",storage);
+
     return 0;
 }
