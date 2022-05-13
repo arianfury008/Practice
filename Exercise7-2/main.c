@@ -80,7 +80,25 @@ int main() {
         printf("\ncondidate D win");
     }
     else {
-        // beacuse C win the condidate we dont need this line of code :)
+        double Cond[] = {APer , BPer , CPer, DPer};
+        int temp = 0;
+
+        int length = sizeof(Cond)/sizeof(Cond[0]);
+
+        for (int i = 0; i < length; i++) {
+            for (int j = i+1; j < length; j++) {
+                if(Cond[i] > Cond[j]) {
+                    temp = Cond[i];
+                    Cond[i] = Cond[j];
+                    Cond[j] = temp;
+                }
+            }
+        }
+        printf("\nSorted Array : \nMost condidate : ");
+        for(int i = 0; i < length;i++){
+            printf("%d ",Cond[i]);
+        }
+        printf("\n ray giri dobare bein %lf va %lf bargozar mishvad ! ",Cond[0],Cond[1]);
     }
 
     return 0;
