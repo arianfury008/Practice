@@ -1,2 +1,2 @@
 # Practice
-University practice C language
+University  C language
