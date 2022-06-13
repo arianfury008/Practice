@@ -1,3 +1,0 @@
-E:/PracticeC/Exercise7-5/cmake-build-debug/CMakeFiles/Exercise7_5.dir
-E:/PracticeC/Exercise7-5/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/PracticeC/Exercise7-5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
